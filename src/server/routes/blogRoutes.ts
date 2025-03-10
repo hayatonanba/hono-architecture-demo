@@ -45,7 +45,7 @@ export const getBlogRoute = createRoute({
 })
 
 export const createBlogRoute = createRoute({
-  path: "",
+  path: "/",
   method:"post",
   description: "投稿",
   request: {
